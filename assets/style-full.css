@@ -79,11 +79,6 @@ header{
 	height: 100%;
 }
 
-#carousel-item img{
-	max-width: 100%;
-	height: auto;
-}
-
 #about {
 	display: flex;
 	background-color: #F6D2B8;
