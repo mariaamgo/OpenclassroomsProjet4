@@ -153,9 +153,8 @@
           index = i ;
         }
       });
-      next =
-        imagesCollection[index -1] ||
-        imagesCollection[imagesCollection.length - 1];
+      //changement de imagesCollection[index] à imagesCollection[index - 1] pour récupérer l'image précédente
+      next = imagesCollection[index -1] ||imagesCollection[imagesCollection.length - 1];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     nextImage() {
@@ -192,6 +191,7 @@
           index = i;
         }
       });
+      //changement de imagesCollection[index] à imagesCollection[index + 1] pour récupérer l'image suivante
       next = imagesCollection[index + 1] || imagesCollection[0];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
@@ -240,6 +240,7 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
+      //ajout de la class active pour ajouter le style au bouton filtre cliqué
       $(this).addClass("active active-tag");
 
       var tag = $(this).data("images-toggle");
