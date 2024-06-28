@@ -94,7 +94,7 @@ header{
 	font-style: italic;
 	width: 60%;
 }
-#about-me p {
+#about-me p:not(.about-me__introduction){
 	width: 80%;
 	font-size: 14px;
 }
@@ -154,7 +154,6 @@ header{
 	font-family: 'Spectral', sans-serif;
 	font-style: italic;
 	font-weight: 300;
-
 }
 .quote__author {
 	font-family: 'Spectral', sans-serif;
@@ -220,7 +219,9 @@ header{
 }
 .form-container {
 	flex : 2;
-
+}
+.form-container h2{
+	font-size : 1.75em;
 }
 form {
 	display: flex;
