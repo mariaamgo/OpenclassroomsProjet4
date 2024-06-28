@@ -45,7 +45,7 @@
 		<script type="application/ld+json">
 			{
 			  "@context": "https://schema.org",
-			  "@type": "Organization",
+			  "@type": "LocalBusiness",
 			  "address": {
 				"@type": "PostalAddress",
 				"addressCountry": "FR",
@@ -55,34 +55,16 @@
 				"streetAddress": "68 avenue Alsace-Lorraine"
 			  },
 			  "name": "Photographe Nina Carducci",
-			  "openingHours": [
+			  "openingHoursSpecification": [
 					{
 					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": "Monday",
-					"opens": "10:00",
-					"closes": "19:00"
-					},
-					{
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": "Tuesday",
-					"opens": "10:00",
-					"closes": "19:00"
-					},
-					{
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": "Wednesday",
-					"opens": "10:00",
-					"closes": "19:00"
-					},
-					{
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": "Thursday",
-					"opens": "10:00",
-					"closes": "19:00"
-					},
-					{
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": "Friday",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
 					"opens": "10:00",
 					"closes": "19:00"
 					}
