@@ -50,10 +50,6 @@ header{
 #carouselExampleIndicators, #carousel-inner, #carousel-item {
 	height: 100%;
 }
-#carousel-item img{
-	max-width: 100%; 
-	height: auto;
-}
 
 #about {
 	display: flex;
@@ -80,10 +76,6 @@ header{
 	z-index: 0;
 }
 
-.picture img {
-	max-width: 100%;
-	height: auto;
-}
 #about-me {
 	flex: 2
 }
@@ -136,10 +128,6 @@ header{
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
-}
-.gallery-item img{
-	max-width: 100%;
-	height: auto;
 }
 .mg-prev, .mg-next {
 	width: 30px;
